@@ -19,6 +19,54 @@
             </ul>
         </nav>
     </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisha's Vibe</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Krisha's Vibe</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#vibe-quiz">Vibe Quiz</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to My Vibe</h1>
+        <p>Explore my world through my passions, photography, and interactive experiences.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="gallery">
+            <!-- Add your photos here -->
+            <img src="image1.jpg" alt="Photo 1">
+            <img src="image2.jpg" alt="Photo 2">
+            <img src="image3.jpg" alt="Photo 3">
+        </div>
+    </section>
+
+    <section id="vibe-quiz" class="quiz">
+        <h2>What's Your Vibe Today?</h2>
+        <button class="quiz-btn">Take the Quiz</button>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Get a glimpse into my daily life, activities, and adventures.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Krisha's Vibe | Built with love & crea
 
     <section id="home" class="hero">
         <h1>Welcome to My Vibe</h1>
