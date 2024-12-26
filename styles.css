@@ -15,3 +15,24 @@ header {
     font-size: 2em;
     font-weight: bold;
 }
+@keyframes glitter {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+body {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+  background-size: 200% 200%;
+  animation: glitter 5s ease infinite;
+  background-attachment: fixed;
+}
+
+.glitter-background {
+  background: url('https://media.giphy.com/media/ViIaTZq9oy1eM/giphy.gif') repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
