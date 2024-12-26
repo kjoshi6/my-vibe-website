@@ -24,3 +24,75 @@
     </main>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krisha's Vibe</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @keyframes glitter {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+      background-size: 200% 200%;
+      animation: glitter 5s ease infinite;
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+
+    .glitter-background {
+      background: url('https://media.giphy.com/media/ViIaTZq9oy1eM/giphy.gif') repeat;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    h1 {
+      color: transparent;
+      font-size: 48px;
+      text-align: center;
+      background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
+      -webkit-background-clip: text;
+    }
+
+    button {
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    button:before {
+      content: "";
+      position: absolute;
+      top: -200%;
+      left: -200%;
+      width: 300%;
+      height: 300%;
+      background: url('https://media.giphy.com/media/ViIaTZq9oy1eM/giphy.gif') repeat;
+      animation: glitter 1s linear infinite;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="glitter-background"></div>
+  <h1>Welcome to Krisha's Vibe</h1>
+  <button>Click Me</button>
+</body>
+</html>
